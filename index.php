@@ -70,11 +70,9 @@
   <div class="row mt-5">
     <div class="col">
 <?php
-    //conexao com banco de dados
+    
     include('config.php');
-
     switch(@$_REQUEST['page']){
-        //pagina de medicos
         case'cadastrar-medico':
             include('cadastrar-medico.php');
             break;
